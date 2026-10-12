@@ -497,7 +497,20 @@ $girls = [
         'sat' => true,
     ],         [
         'id' => '32',
-    ],   
+        'name' => 'もも',
+        'age' => '25',
+        'img' => 'none',
+        'time' => '14:00〜20:00',
+        'tall' => '168',
+        'reserve' => '3000',
+        'sun' => false,
+        'mon' => true,
+        'tue' => false,
+        'wed' => true,
+        'thu' => true,
+        'fri' => false,
+        'sat' => true,
+    ],
 ];
 
 $cupOptions = ['B', 'C', 'C', 'D', 'D', 'E'];

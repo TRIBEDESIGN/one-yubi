@@ -2,8 +2,6 @@
 $diarys = [
     [
         'name' => 'まつり',
-        'age' => '28',
-        'tall' => '160',
         'diary' => true,
         'diary-img' => 'matsuri',
         'diary-text' => 'Rさんとのお話とても楽しかったです✨
@@ -11,16 +9,12 @@ $diarys = [
     ],
     [
         'name' => 'けい',
-        'age' => '26',
-        'tall' => '157',
         'diary' => true,
         'diary-img' => 'kei',
         'diary-text' => 'お会いしてくださった皆さま、ありがとうございました😊とても楽しい一日でした！',
     ],
     [
         'name' => 'まいこ',
-        'age' => '28',
-        'tall' => '170',
         'diary' => true,
         'diary-img' => 'maiko',
         'diary-text' => 'まいこです🌸
@@ -29,8 +23,6 @@ $diarys = [
     ],
     [
         'name' => 'まりえ',
-        'age' => '21',
-        'tall' => '165',
         'diary' => true,
         'diary-img' => 'marie',
         'diary-text' => 'お気に入りのミニ☀️
@@ -39,8 +31,6 @@ $diarys = [
     ],
     [
         'name' => 'べに',
-        'age' => '26',
-        'tall' => '170',
         'diary' => true,
         'diary-img' => 'beni',
         'diary-text' => '今日だけ特別に開けておくね!
@@ -48,8 +38,6 @@ $diarys = [
     ],
     [
         'name' => 'える',
-        'age' => '28',
-        'tall' => '156',
         'diary' => true,
         'diary-img' => 'eru',
         'diary-text' => '最近のお気に入りチキン南蛮♪
@@ -57,8 +45,6 @@ $diarys = [
     ],
     [
         'name' => 'かすみ',
-        'age' => '28',
-        'tall' => '168',
         'diary' => true,
         'diary-img' => 'kasumi',
         'diary-text' => 'パンスト好き集まれ！😊
@@ -66,16 +52,12 @@ $diarys = [
     ],
     [
         'name' => 'かおる',
-        'age' => '22',
-        'tall' => '160',
         'diary' => true,
         'diary-img' => 'kaoru',
         'diary-text' => 'Yシャツにノーブラって みんな好き？見にきてね💖',
     ],
     [
         'name' => 'メリー',
-        'age' => '22',
-        'tall' => '168',
         'diary' => true,
         'diary-img' => 'merry',
         'diary-text' => 'メリーです💓
@@ -84,8 +66,6 @@ $diarys = [
     ],
     [
         'name' => 'ゆうき',
-        'age' => '24',
-        'tall' => '153',
         'diary' => true,
         'diary-img' => 'yuki',
         'diary-text' => '待機中です！
@@ -94,8 +74,6 @@ $diarys = [
     ],
     [
         'name' => 'エルサ',
-        'age' => '21',
-        'tall' => '162',
         'diary' => true,
         'diary-img' => 'elsa',
         'diary-text' => '今日メイドだったよ😊
@@ -103,16 +81,12 @@ $diarys = [
     ],
     [
         'name' => 'マイル',
-        'age' => '22',
-        'tall' => '162',
         'diary' => true,
         'diary-img' => 'mill',
         'diary-text' => 'お客様との出会いを心待ちにしています✨',
     ],
     [
         'name' => 'かおる',
-        'age' => '22',
-        'tall' => '160',
         'diary' => true,
         'diary-img' => 'kaoru_2',
         'diary-text' => 'サンリオピューロランド
@@ -121,8 +95,6 @@ $diarys = [
     ],
     [
         'name' => 'まりえ',
-        'age' => '21',
-        'tall' => '165',
         'diary' => true,
         'diary-img' => 'marie_3',
         'diary-text' => 'K.Mさん差し入れありがとう！
@@ -130,8 +102,6 @@ $diarys = [
     ],
     [
         'name' => 'べに',
-        'age' => '26',
-        'tall' => '170',
         'diary' => true,
         'diary-img' => 'beni_2',
         'diary-text' => 'いつも来てくれるH様、
@@ -140,8 +110,6 @@ $diarys = [
     ],
     [
         'name' => 'メリー',
-        'age' => '22',
-        'tall' => '168',
         'diary' => true,
         'diary-img' => 'merry_2',
         'diary-text' => '韓国旅行から帰ってきました💓
@@ -150,8 +118,6 @@ $diarys = [
     ],
     [
         'name' => 'ピーチ',
-        'age' => '22',
-        'tall' => '159',
         'diary' => true,
         'diary-img' => 'peach',
         'diary-text' => '元気いっぱいのピーチです！
@@ -160,16 +126,12 @@ Hなこといっぱいw
     ],
     [
         'name' => 'える',
-        'age' => '28',
-        'tall' => '156',
         'diary' => true,
         'diary-img' => 'eru_2',
         'diary-text' => ' 皆様にとって素敵な一日になるよう心を込めてお待ちしています😊',
     ],
     [
         'name' => 'まりえ',
-        'age' => '21',
-        'tall' => '165',
         'diary' => true,
         'diary-img' => 'marie_2',
         'diary-text' => 'けい君ありがとう💓
@@ -178,8 +140,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'エルサ',
-        'age' => '21',
-        'tall' => '162',
         'diary' => true,
         'diary-img' => 'elsa_2',
         'diary-text' => '膝枕大好き男子集まれ✨
@@ -187,8 +147,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'かおる',
-        'age' => '22',
-        'tall' => '160',
         'diary' => true,
         'diary-img' => 'kaoru_3',
         'diary-text' => '元気をお届けします💪
@@ -196,8 +154,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'かすみ',
-        'age' => '28',
-        'tall' => '168',
         'diary' => true,
         'diary-img' => 'kasumi_2',
         'diary-text' => '今日は特別なコスプレを
@@ -206,8 +162,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'カエラ',
-        'age' => '26',
-        'tall' => '164',
         'diary' => true,
         'diary-img' => 'kaera',
         'diary-text' => '大好きなA君💝
@@ -216,8 +170,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'かすみ',
-        'age' => '28',
-        'tall' => '168',
         'diary' => true,
         'diary-img' => 'kasumi_3',
         'diary-text' => '寒いからアイス💝
@@ -226,8 +178,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'もも',
-        'age' => '25',
-        'tall' => '168',
         'diary' => true,
         'diary-img' => 'momo',
         'diary-text' => 'ももです🌸 
@@ -236,8 +186,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'ほのか',
-        'age' => '26',
-        'tall' => '160',
         'diary' => true,
         'diary-img' => 'honoka',
         'diary-text' => '最近ちょっと疲れていませんか？
@@ -245,8 +193,6 @@ Hなこといっぱいw
     ],
     [
         'name' => 'ピーチ',
-        'age' => '22',
-        'tall' => '159',
         'diary' => true,
         'diary-img' => 'peach_2',
         'diary-text' => '特別な癒しの時間を提供します💖',

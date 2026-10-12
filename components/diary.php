@@ -6,6 +6,10 @@ if (session_status() === PHP_SESSION_NONE) {
 // 日記データの読み込み（例：$diarys 配列があると仮定）
 require(dirname(__FILE__) . '/../hooks/diary.php'); // $diarysを読み込む
 
+// 年齢はキャスト一覧（$girls）を正とし、源氏名で引く
+require(dirname(__FILE__) . '/../hooks/girl.php');
+$girlAges = array_column($girls, 'age', 'name');
+
 // 現在の時間を取得
 $currentHour = date('YmdH'); // 例: 20241212 14
 
@@ -84,6 +88,7 @@ $paginatedDates = array_slice($dates, $startIndex, $itemsPerPage);
 
 <!-- HTML部分 -->
 <?php foreach ($paginatedDiaries as $index => $diary): ?>
+  <?php $diaryAge = $girlAges[$diary['name']] ?? ''; ?>
   <li class="diary">
     <?php if ($templete === 'top') : ?>
       <a class="diary__link" href="<?php echo $path; ?>diary.php">
@@ -102,11 +107,11 @@ $paginatedDates = array_slice($dates, $startIndex, $itemsPerPage);
 
       <?php if ($templete === 'top') : ?>
         <p class="diary-name">
-          <?php echo htmlspecialchars($diary['name']); ?><span class="diary-age">(<?php echo htmlspecialchars($diary['age']); ?>)</span>
+          <?php echo htmlspecialchars($diary['name']); ?><span class="diary-age">(<?php echo htmlspecialchars($diaryAge); ?>)</span>
         </p>
       <?php elseif ($templete !== 'top') : ?>
         <p class="diary-name">
-          <?php echo htmlspecialchars($diary['name'] . '(' . $diary['age'] . ')');  ?></p>
+          <?php echo htmlspecialchars($diary['name'] . '(' . $diaryAge . ')');  ?></p>
       <?php endif; ?>
 
       <div class="diary-text">
