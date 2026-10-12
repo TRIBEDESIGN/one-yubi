@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 // 日記データの読み込み（例：$diarys 配列があると仮定）
 require(dirname(__FILE__) . '/../hooks/diary.php'); // $diarysを読み込む
